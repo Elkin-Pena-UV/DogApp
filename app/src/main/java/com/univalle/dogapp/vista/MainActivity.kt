@@ -1,4 +1,4 @@
-package com.univalle.dogapp
+package com.univalle.dogapp.vista
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -7,12 +7,13 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.univalle.dogapp.databinding.ActivityMainBinding
 import androidx.databinding.DataBindingUtil
+import com.univalle.dogapp.R
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
