@@ -1,4 +1,4 @@
-package com.univalle.dogapp.vista
+package com.univalle.dogapp.View
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

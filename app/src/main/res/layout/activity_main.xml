@@ -7,14 +7,14 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".vista.MainActivity">
+        tools:context=".View.MainActivity">
 
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:name="com.univalle.dogapp.fragments.FragmentA"
+            android:name="com.univalle.dogapp.View.fragments.FragmentA"
             tools:layout="@layout/fragment_a"/>
 
 
