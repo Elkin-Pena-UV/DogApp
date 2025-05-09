@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">DogApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">DogApp</string>
+    <string name="titulo_nombre_mascota">Nombre Mascota</string>
+    <string name="titulo_toolbar">Cory</string>
+    <string name="turno">#1</string>
+    <string name="raza_demo">pitbull</string>
+    <string name="sintoma">Tiene garrapatas</string>
+    <string name="propietario">Propietario: Walter</string>
+    <string name="telefono">Teléfono: 3045675518</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+
 </resources>

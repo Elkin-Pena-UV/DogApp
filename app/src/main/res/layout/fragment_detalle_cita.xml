@@ -175,7 +175,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/baseline_restore_from_trash_24"
-            android:tint="@color/blanco"/>
+            app:tint="@color/blanco"/>
 
         <!-- Botón Editar -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -189,7 +189,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/baseline_create_24"
-            />
+            app:tint="@color/blanco"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

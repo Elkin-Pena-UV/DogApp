@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="dark_grey">#1C1C1E</color>
+    <color name="eliminar">#DC143C</color>
+    <color name="negro">#000000</color>
+    <color name="barra_superior">#212121</color>
+    <color name="blanco">#F8F8FF</color>
+    <color name="rosado">#F05861</color>
 </resources>
